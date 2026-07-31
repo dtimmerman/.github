@@ -1,0 +1,65 @@
+name: Feature Request
+description: Propose a new capability or user-facing improvement.
+title: ""
+labels: ["type: feature"]
+body:
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem statement
+      description: One sentence describing the problem to solve or goal to pursue.
+      placeholder: Users need a way to...
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: One sentence explaining why this matters or what becomes possible.
+      placeholder: This matters because...
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: List the flows, capabilities, components, or views this issue covers.
+      value: |
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List testable requirements for completion.
+      value: |
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+      description: List expected code, tests, docs, screenshots, or operational changes.
+      value: |
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of Scope
+      description: Optional. List related work this issue should not include.
+      value: |
+        - 
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Optional. Link related issues, plans, docs, or prior discussion.
+      placeholder: "Related: #123"
+    validations:
+      required: false
