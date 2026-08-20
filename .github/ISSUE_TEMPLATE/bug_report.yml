@@ -1,0 +1,77 @@
+name: Bug Report
+description: Report broken or incorrect behavior.
+title: ""
+labels: ["type: bug"]
+body:
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem statement
+      description: One sentence describing the broken behavior.
+      placeholder: When..., the system...
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Describe what should happen instead.
+      placeholder: It should...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Reproduction steps
+      description: List the smallest known sequence that reproduces the bug.
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include relevant app, OS, browser, device, config, or version details.
+      value: |
+        - OS:
+        - Browser/app:
+        - Version/commit:
+    validations:
+      required: false
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who is affected, how often, and whether a workaround exists.
+      placeholder: This affects...
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List testable requirements for the fix.
+      value: |
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+      description: List expected code, tests, docs, screenshots, or operational changes.
+      value: |
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Optional. Link logs, screenshots, related issues, docs, or prior discussion.
+      placeholder: "Related: #123"
+    validations:
+      required: false

@@ -1,0 +1,56 @@
+name: Task
+description: Track maintenance, documentation, testing, infrastructure, or other non-feature work.
+title: ""
+labels: ["type: task"]
+body:
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem statement
+      description: One sentence describing the work to do or issue to resolve.
+      placeholder: This repository needs...
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: One sentence explaining why this work is valuable.
+      placeholder: This matters because...
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: List the areas, files, workflows, or behaviors this task covers.
+      value: |
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List testable requirements for completion.
+      value: |
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+      description: List expected code, tests, docs, screenshots, or operational changes.
+      value: |
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Optional. Link related issues, plans, docs, or prior discussion.
+      placeholder: "Related: #123"
+    validations:
+      required: false

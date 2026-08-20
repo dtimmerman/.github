@@ -1,2 +1,3 @@
 # .github
-Default community health files for dtimmerman repositories
+
+Default community health files for repositories owned by this account.
